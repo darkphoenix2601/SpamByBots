@@ -37,64 +37,64 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 @UstaD.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD2.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD3.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD4.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD5.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD6.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD7.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD8.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD9.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD10.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD11.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD12.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD13.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD14.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD15.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD16.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD17.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD18.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD19.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD20.on(
-    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
 async def ping(e):
         start = datetime.now()
