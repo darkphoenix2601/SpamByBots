@@ -33,7 +33,7 @@ RESTARTING_APP = "re-starting heroku application"
 # -- Constants End -- #
 
 @UstaD.on(
-    events.NewMessage(pattern="^/update", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^*update", func=lambda e: e.sender_id in SMEX_USERS)
 )
 async def restart(e):
     if e.sender_id in SMEX_USERS:
