@@ -9,68 +9,68 @@ for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
 @UstaD.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD2.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD3.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD4.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD5.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD6.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD7.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD8.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD9.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD10.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD11.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD12.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD13.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD14.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD15.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD16.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD17.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD18.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD19.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 @UstaD20.on(
-    events.NewMessage(pattern="^*restart", func=lambda e: e.sender_id in SMEX_USERS)
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = " 🤖𝐑𝐄𝐒𝐓𝐀𝐑𝐓𝐄𝐃🤖\n🔰𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓 𝐓𝐈𝐋𝐋 𝐈𝐓 𝐑𝐄𝐁𝐎𝐎𝐓𝐒 @Zaid_Updates...."
+        text = " 🤖𝐑𝐄𝐒𝐓𝐀𝐑𝐓𝐄𝐃🤖\n🔰𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓 𝐓𝐈𝐋𝐋 𝐈𝐓 𝐑𝐄𝐁𝐎𝐎𝐓𝐒...."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await UstaD.disconnect()
