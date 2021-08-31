@@ -26,6 +26,16 @@ que = {}
 @UstaD8.on(events.NewMessage(pattern="/raid"))
 @UstaD9.on(events.NewMessage(pattern="/raid"))
 @UstaD10.on(events.NewMessage(pattern="/raid"))
+@UstaD11.on(events.NewMessage(pattern="/raid"))
+@UstaD12.on(events.NewMessage(pattern="/raid"))
+@UstaD13.on(events.NewMessage(pattern="/raid"))
+@UstaD14.on(events.NewMessage(pattern="/raid"))
+@UstaD15.on(events.NewMessage(pattern="/raid"))
+@UstaD16.on(events.NewMessage(pattern="/raid"))
+@UstaD17.on(events.NewMessage(pattern="/raid"))
+@UstaD18.on(events.NewMessage(pattern="/raid"))
+@UstaD19.on(events.NewMessage(pattern="/raid"))
+@UstaD20.on(events.NewMessage(pattern="/raid"))
 async def spam(e):  
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
@@ -74,6 +84,16 @@ async def spam(e):
 @UstaD8.on(events.NewMessage(incoming=True))
 @UstaD9.on(events.NewMessage(incoming=True))
 @UstaD10.on(events.NewMessage(incoming=True))
+@UstaD11.on(events.NewMessage(incoming=True))
+@UstaD12.on(events.NewMessage(incoming=True))
+@UstaD13.on(events.NewMessage(incoming=True))
+@UstaD14.on(events.NewMessage(incoming=True))
+@UstaD15.on(events.NewMessage(incoming=True))
+@UstaD16.on(events.NewMessage(incoming=True))
+@UstaD17.on(events.NewMessage(incoming=True))
+@UstaD18.on(events.NewMessage(incoming=True))
+@UstaD19.on(events.NewMessage(incoming=True))
+@UstaD20.on(events.NewMessage(incoming=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -99,6 +119,16 @@ async def _(event):
 @UstaD8.on(events.NewMessage(pattern="/replyraid"))
 @UstaD9.on(events.NewMessage(pattern="/replyraid"))
 @UstaD10.on(events.NewMessage(pattern="/replyraid"))
+@UstaD11.on(events.NewMessage(pattern="/replyraid"))
+@UstaD12.on(events.NewMessage(pattern="/replyraid"))
+@UstaD13.on(events.NewMessage(pattern="/replyraid"))
+@UstaD14.on(events.NewMessage(pattern="/replyraid"))
+@UstaD15.on(events.NewMessage(pattern="/replyraid"))
+@UstaD16.on(events.NewMessage(pattern="/replyraid"))
+@UstaD17.on(events.NewMessage(pattern="/replyraid"))
+@UstaD8.on(events.NewMessage(pattern="/replyraid"))
+@UstaD19.on(events.NewMessage(pattern="/replyraid"))
+@UstaD20.on(events.NewMessage(pattern="/replyraid"))
 async def _(e):
     global que
     if e.sender_id in SMEX_USERS:
@@ -139,6 +169,16 @@ async def _(e):
 @UstaD8.on(events.NewMessage(pattern="/dreplyraid"))
 @UstaD9.on(events.NewMessage(pattern="/dreplyraid"))
 @UstaD10.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD11.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD12.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD13.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD14.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD15.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD16.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD17.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD18.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD19.on(events.NewMessage(pattern="/dreplyraid"))
+@UstaD20.on(events.NewMessage(pattern="/dreplyraid"))
 async def _(e):
     global que    
     if e.sender_id in SMEX_USERS:
