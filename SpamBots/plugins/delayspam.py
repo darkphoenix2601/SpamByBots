@@ -1,17 +1,3 @@
-async def gifspam(e, smex):
-    try:
-        await e.client(
-            functions.messages.SaveGifRequest(
-                id=types.InputDocument(
-                    id=sandy.media.document.id,
-                    access_hash=smex.media.document.access_hash,
-                    file_reference=smex.media.document.file_reference,
-                ),
-                unsave=True,
-            )
-        )
-    except Exception:
-        pass
 
 import asyncio
 import base64
