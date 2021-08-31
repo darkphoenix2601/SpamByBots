@@ -69,3 +69,28 @@ async def spam(e):
                     await asyncio.sleep(sleeptime)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
+
+
+@UstaD.on(events.NewMessage(pattern="/repo"))
+@UstaD2.on(events.NewMessage(pattern="/repo"))
+@UstaD3.on(events.NewMessage(pattern="/repo"))
+@UstaD4.on(events.NewMessage(pattern="/repo"))
+@UstaD5.on(events.NewMessage(pattern="/repo"))
+@UstaD6.on(events.NewMessage(pattern="/repo"))
+@UstaD7.on(events.NewMessage(pattern="/repo"))
+@UstaD8.on(events.NewMessage(pattern="/repo"))
+@UstaD9.on(events.NewMessage(pattern="/repo"))
+@UstaD10.on(events.NewMessage(pattern="/repo"))
+@UstaD11.on(events.NewMessage(pattern="/repo"))
+@UstaD12.on(events.NewMessage(pattern="/repo"))
+@UstaD13.on(events.NewMessage(pattern="/repo"))
+@UstaD14.on(events.NewMessage(pattern="/repo"))
+@UstaD15.on(events.NewMessage(pattern="/repo"))
+@UstaD16.on(events.NewMessage(pattern="/repo"))
+@UstaD17.on(events.NewMessage(pattern="/repo"))
+@UstaD18.on(events.NewMessage(pattern="/repo"))
+@UstaD19.on(events.NewMessage(pattern="/repo"))
+@UstaD20.on(events.NewMessage(pattern="/repo"))
+async def hapy(event):
+     a="Hҽɾҽ Iʂ Tԋҽ Rҽρσ [⚡𝐙 𝐁𝐥𝐚𝐜𝐤 𝐔𝐬𝐞𝐫𝐛𝐨𝐭⚡](https://github.com/ANMOL12334/SpamByBots)"
+     await event.edit(a)
