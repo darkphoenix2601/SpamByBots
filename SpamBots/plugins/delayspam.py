@@ -37,6 +37,16 @@ for x in SUDO_USERS:
 @UstaD8.on(events.NewMessage(pattern="/delayspam"))
 @UstaD9.on(events.NewMessage(pattern="/delayspam"))
 @UstaD10.on(events.NewMessage(pattern="/delayspam"))
+@UstaD11.on(events.NewMessage(pattern="/delayspam"))
+@UstaD12.on(events.NewMessage(pattern="/delayspam"))
+@UstaD13.on(events.NewMessage(pattern="/delayspam"))
+@UstaD14.on(events.NewMessage(pattern="/delayspam"))
+@UstaD15.on(events.NewMessage(pattern="/delayspam"))
+@UstaD16.on(events.NewMessage(pattern="/delayspam"))
+@UstaD17.on(events.NewMessage(pattern="/delayspam"))
+@UstaD18.on(events.NewMessage(pattern="/delayspam"))
+@UstaD19.on(events.NewMessage(pattern="/delayspam"))
+@UstaD20.on(events.NewMessage(pattern="/delayspam"))
 async def spam(e):    
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
