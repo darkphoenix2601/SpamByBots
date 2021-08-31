@@ -144,7 +144,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "𝐀𝐛 𝐝𝐞𝐤𝐡 𝐈𝐬𝐤𝐢 𝐊𝐚𝐢𝐬𝐞 𝐆𝐚𝐧𝐝 𝐌𝐚𝐫𝐭𝐚🥵𝙭𝙕𝘼𝙄𝘿"
             await e.reply(text, parse_mode=None, link_preview=None)
         elif e.reply_to_msg_id:
             a = await e.get_reply_message()
@@ -154,7 +154,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "𝐀𝐛 𝐝𝐞𝐤𝐡 𝐈𝐬𝐤𝐢 𝐊𝐚𝐢𝐬𝐞 𝐆𝐚𝐧𝐝 𝐌𝐚𝐫𝐭𝐚🥵𝙭𝙕𝘼𝙄𝘿"
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
@@ -195,7 +195,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "𝐃𝐞𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝 𝐍𝐨𝐰 𝐒𝐨𝐧 𝐂𝐚𝐧 𝐒𝐩𝐞𝐚𝐤🥴𝙭𝙕𝘼𝙄𝘿"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -206,7 +206,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "𝐃𝐞𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝 𝐍𝐨𝐰 𝐒𝐨𝐧 𝐂𝐚𝐧 𝐒𝐩𝐞𝐚𝐤🥴𝙭𝙕𝘼𝙄𝘿"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
